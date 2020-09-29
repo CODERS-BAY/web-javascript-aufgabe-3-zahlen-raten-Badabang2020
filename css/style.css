@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+body {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 3rem;
+
+  background-color: #000000b9;
+
+  margin: 2.5rem 2.5rem;
+}
+
+h1 {
+  color: #f688f2;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+
+label {
+  color: #2ff688;
+
+  text-align: center;
+
+  margin: 3rem;
+}
+
+.grid1 label:first-of-type {
+  margin: 5rem;
+}
+
+input {
+  background-color: #000000b9;
+  color: #fff;
+
+  line-height: 5rem;
+  font-size: 2rem;
+
+  margin: 2rem;
+}
+
+button {
+  background-color: #00ff00;
+
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 900;
+  font-size: 150%;
+
+  width: 80%;
+  height: 25%;
+
+  margin: 2.5rem;
+}
+
+.userInput {
+  display: grid;
+  grid-template-columns: 30rem 30rem 30rem;
+  grid-template-rows: 30rem;
+  grid-gap: 1rem;
+
+  justify-content: center;
+}
+
+.grid1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+
+  border: 0.25rem solid #ffa055;
+
+  padding: 2rem 2rem;
+}
+
+.grid2 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+
+  border: 0.25rem solid lightgreen;
+  padding: 2rem 2rem;
+}
+.grid3 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+
+  color: #ffffff;
+
+  border: 0.25rem solid #8b008b;
+  padding: 2rem 9rem;
+}
+
+#showMaxNum {
+  color: #ff0000;
+}
+
+/*------------------------------------Responsive web design------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 900px) {
+  body {
+    scale: 0.5;
+    margin: 0 0;
+    padding: 0 0;
+  }
+
+  h1 {
+    margin: 0.5rem 0.5rem;
+  }
+
+  .userInput {
+    display: block;
+  }
+}
+
+.userInput div {
+  margin: 0 0;
+}
